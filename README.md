@@ -2,9 +2,9 @@
 
 Welcome to the **Object-Oriented Programming Techniques** repository. This repository contains notes, examples, and practice questions to help students understand the topics covered in the course.  
 
-## Course Structure  
+## Repository Structure
 
-The course is divided into modules, each focusing on key topics in object-oriented programming. Each module includes explanations, example code, and practice questions to ensure a thorough understanding of the concepts.
+The repository is divided into modules, each focusing on key topics in object-oriented programming. Each module includes explanations, example code, and practice questions to ensure a thorough understanding of the concepts.
 
 ### Modules
 
@@ -60,12 +60,12 @@ The course is divided into modules, each focusing on key topics in object-orient
 
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/syedtaha22/OOP_Techniques_CPP.git
+   git clone https://github.com/syedtaha22/Object-Oriented-Programming-CPP.git
    ```  
 
 2. **Navigate to the Course Directory:**  
    ```bash
-   cd OOP_Techniques_CPP
+   cd Object-Oriented-Programming-CPP
    ```  
 
 3. **Explore the Modules:**  
