@@ -1,0 +1,17 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore all .zip files
+*.zip
+
+# Ignore all .docx (Word) files
+*.docx
+
+# Ignore all .pdf files
+*.pdf
+
+# Ignore the misc folder
+misc/
+
+# Ignore the .vscode folder
+.vscode/
