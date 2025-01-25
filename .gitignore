@@ -13,5 +13,9 @@
 # Ignore the misc folder
 misc/
 
-# Ignore the .vscode folder
-.vscode/
+# Ignore the .vscode folder in the root of the repository, but not in subdirectories
+/.vscode/
+
+
+# Ignore Tests/ folder
+Tests/
