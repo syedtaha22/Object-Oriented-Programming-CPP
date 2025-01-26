@@ -19,4 +19,4 @@ This module covers the basics of **Object-Oriented Programming (OOP)** in C++, f
 
 This module is essential for understanding how to work with structures and classes in C++ and serves as the foundation for learning more advanced OOP concepts.
 
-Stat
+Start [here](ClassesObjects.md)
