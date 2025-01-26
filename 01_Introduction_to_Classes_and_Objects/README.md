@@ -13,8 +13,10 @@ This module covers the basics of **Object-Oriented Programming (OOP)** in C++, f
 
 ## Folder Structure  
 
-- `ClassesObjects.md`: Detailed notes on classes and objects.  
-- `examples/`: Code examples demonstrating the key concepts.  
-- `practice_questions/`: Exercises to test your understanding.  
+- [ClassesObjects.md](ClassesObjects.md): Detailed notes on classes and objects.
+- [examples/](examples/): Code examples demonstrating class and structure usage.
+- [practice_questions/](practice_questions/): Practice questions to reinforce your understanding.
 
 This module is essential for understanding how to work with structures and classes in C++ and serves as the foundation for learning more advanced OOP concepts.
+
+Stat
