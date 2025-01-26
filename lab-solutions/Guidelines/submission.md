@@ -1,7 +1,7 @@
 # Instructions for Lab Submission:
 
 ## 1. **File Naming and Submission**:
-   - Submit your solution as a zip file named *Lab1_<ERP>.zip*, where `<ERP>` is your ERP number. For example, if your ERP number is 12345, the file should be named *Lab1_12345.zip*.
+   - Submit your solution as a zip file named *Lab<number>_<ERP>.zip*, where `<ERP>` is your ERP number. For example, if submitting Lab 1 and your ERP is 12345, the file should be named *Lab1_12345.zip*.
    - Ensure that the zip file:
      - Contains the following directories:
        - `headers/`: All header files, named as `<class/struct name>.hpp`.
