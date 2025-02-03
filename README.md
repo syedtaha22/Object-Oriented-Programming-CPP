@@ -13,10 +13,11 @@ The repository is divided into modules, each focusing on key topics in object-or
    - Access specifiers: `public` and `private`
    - Methods and `get`/`set` functions
 
-2. **[Abstract Data Types and Constructors](02_ADTs_and_Constructors/README.md)**
-   - Designing abstract data types (ADTs)
+2. **[Constructors, Destructors, and the `this` Operator](02_Constructors_Destructors_This_Operator/README.md)**
    - Constructor types: default, parameterized, and copy constructors
-   - Operator overloading and `this` keyword
+   - Copy constructors and deep vs. shallow copy
+   - The `this` operator and its uses
+   - Destructors and resource management
 
 3. **[Stacks and Queues](03_Stacks_and_Queues/README.md)**
    - Implementing stack and queue ADTs using arrays and linked lists
