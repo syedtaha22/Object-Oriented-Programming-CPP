@@ -171,3 +171,5 @@ In this example, the user can start the engine without needing to understand its
 ---
 
 This document provides an overview of classes, structures, and related concepts. Additional examples can be found in the [examples/](examples/) folder, and related exercises are in the [practice_questions/](practice_questions/) folder.
+
+Next, proceed to [02_Constructors_Destructors_This_Operator/](../02_Constructors_Destructors_This_Operator/README.md) to learn about constructors, destructors, and the `this` pointer.
