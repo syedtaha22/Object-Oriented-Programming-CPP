@@ -12,7 +12,6 @@ This module covers two fundamental **data structures**: **Stacks** and **Queues*
 2. **Queues**  
    - Concept and real-world applications.  
    - Implementation using arrays and linked lists.  
-   - Variants: circular queue, priority queue, and deque.  
    - Common operations: enqueue, dequeue, front, and isEmpty.  
 
 ## Folder Structure  
