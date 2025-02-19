@@ -21,7 +21,9 @@ The repository is divided into modules, each focusing on key topics in object-or
 
 3. **[Stacks and Queues](03_Stacks_and_Queues/README.md)**
    - Implementing stack and queue ADTs using arrays and linked lists
-   - Understanding `static` members and the `friend` keyword
+   - Stack operations: push, pop, and top
+   - Queue operations: enqueue, dequeue, and front
+   - Comparing array-based and linked list-based implementations
 
 4. **[Inheritance and Polymorphism](04_Inheritance_and_Polymorphism/README.md)**
    - Creating derived classes
