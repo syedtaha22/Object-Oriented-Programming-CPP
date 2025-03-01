@@ -27,7 +27,7 @@ This module covers two essential **object-oriented programming (OOP) concepts**:
 - [Polymorphism.md](Polymorphism.md): Detailed overview of polymorphism, including function overloading, overriding, and virtual functions.  
 - [static_and_dynamic_casting.md](static_and_dynamic_casting.md): Detailed comparison of static and dynamic casting in C++.
 - [examples/](examples/): Code snippets demonstrating inheritance and polymorphism in C++.  
-- [practice_questions/](practice_questions/): Exercises to reinforce the concepts.  
+- [practice_questions/](practice_questions/practice.md): Exercises to reinforce the concepts.  
 
 This module provides a structured approach to understanding **inheritance** and **polymorphism**, laying the foundation for scalable and maintainable OOP designs.
 
