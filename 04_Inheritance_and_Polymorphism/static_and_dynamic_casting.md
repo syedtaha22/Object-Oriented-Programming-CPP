@@ -160,6 +160,6 @@ By choosing the right type of cast, you can ensure your program is both efficien
 
 For practice problems and further examples, refer to:
 
-- [practice/practice.md](practice_questions/practice.md)
+- [practice_questions/practice.md](practice_questions/practice.md)
 - [examples/](examples/)
 
