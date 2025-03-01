@@ -27,8 +27,12 @@ The repository is divided into modules, each focusing on key topics in object-or
 
 4. **[Inheritance and Polymorphism](04_Inheritance_and_Polymorphism/README.md)**
    - Creating derived classes
-   - `protected` access specifier and function overriding
-   - Virtual functions and polymorphism
+   - Access specifiers in inheritance
+   - Overriding base class members
+   - Virtual functions and dynamic dispatch
+   - Virtual destructors and their importance
+   - Polymorphism and its types
+   - Static casting and dynamic casting
 
 5. **[Abstract Classes and Interfaces](05_Abstract_Classes_and_Interfaces/README.md)**
    - Pure virtual functions and abstract classes
