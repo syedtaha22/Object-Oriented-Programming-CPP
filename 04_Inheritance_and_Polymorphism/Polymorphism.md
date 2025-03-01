@@ -188,5 +188,4 @@ Polymorphism is essential for writing **scalable, reusable, and maintainable cod
 ---
 
 For further details on type conversions in polymorphism, see: [static_and_dynamic_casting.md](static_and_dynamic_casting.md)
-```
 
