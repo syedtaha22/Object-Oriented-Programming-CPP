@@ -1,0 +1,205 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Forgotten Chamber",
+            "description": "A damp and eerie chamber filled with ancient carvings on the walls. The air smells of dust and decay.",
+            "item": {
+                "name": "Rusty Sword",
+                "description": "An old, rust-covered sword. Not very sharp, but better than nothing.",
+                "type": "W",
+                "properties": {
+                    "attack_bonus": 5
+                }
+            },
+            "enemies": []
+        },
+        {
+            "id": 2,
+            "name": "Hall of Whispers",
+            "description": "Faint whispers echo in the darkness. The stone floor is covered in dried blood.",
+            "item": {
+                "name": "Leather Armor",
+                "description": "Basic armor made from toughened leather. Offers some protection.",
+                "type": "A",
+                "properties": {
+                    "defense_bonus": 5
+                }
+            },
+            "enemies": [
+                {
+                    "name": "Shadow Stalker",
+                    "description": "A dark figure that moves between the shadows, striking when least expected.",
+                    "health": 20,
+                    "base_attack_damage": 6,
+                    "base_defense": 3,
+                    "aggression": 4,
+                    "loot": {
+                        "name": "Health Potion",
+                        "description": "Restores 15 HP when consumed.",
+                        "type": "C",
+                        "properties": {
+                            "heal_amount": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "The Cursed Armory",
+            "description": "Rusting weapons and shattered shields litter the floor, remnants of past battles.",
+            "item": {
+                "name": "Steel Dagger",
+                "description": "A lightweight dagger with a sharp edge, ideal for quick attacks.",
+                "type": "W",
+                "properties": {
+                    "attack_bonus": 12
+                }
+            },
+            "enemies": [
+                {
+                    "name": "Possessed Knight",
+                    "description": "A fallen warrior whose soul is bound to his rusted armor.",
+                    "health": 35,
+                    "base_attack_damage": 10,
+                    "base_defense": 5,
+                    "aggression": 6,
+                    "loot": {
+                        "name": "Health Potion",
+                        "description": "Restores 15 HP when consumed.",
+                        "type": "C",
+                        "properties": {
+                            "heal_amount": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Chamber of Echoes",
+            "description": "Every sound is amplified a hundredfold. You can hear your own heartbeat.",
+            "item": {
+                "name": "Chainmail Vest",
+                "description": "A sturdy vest made of interlocking steel rings, offering solid protection.",
+                "type": "A",
+                "properties": {
+                    "defense_bonus": 12
+                }
+            },
+            "enemies": [
+                {
+                    "name": "Phantom Warden",
+                    "description": "An ethereal guardian bound to the chamber for eternity.",
+                    "health": 50,
+                    "base_attack_damage": 15,
+                    "base_defense": 10,
+                    "aggression": 7,
+                    "loot": {
+                        "name": "Greater Health Potion",
+                        "description": "Restores 30 HP when consumed.",
+                        "type": "C",
+                        "properties": {
+                            "heal_amount": 30
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "The Black Forge",
+            "description": "A long-forgotten forge where legendary weapons were once crafted. The air is thick with heat and the scent of molten metal.",
+            "item": {
+                "name": "Flameforged Greatsword",
+                "description": "A massive sword, its blade still glowing faintly from the forge.",
+                "type": "W",
+                "properties": {
+                    "attack_bonus": 25
+                }
+            },
+            "enemies": [
+                {
+                    "name": "Infernal Guardian",
+                    "description": "A fiery elemental bound to the forge, protecting its ancient secrets.",
+                    "health": 80,
+                    "base_attack_damage": 20,
+                    "base_defense": 15,
+                    "aggression": 9,
+                    "loot": {
+                        "name": "Greater Health Potion",
+                        "description": "Restores 30 HP when consumed.",
+                        "type": "C",
+                        "properties": {
+                            "heal_amount": 30
+                        }
+                    }
+                },
+                {
+                    "name": "Lava Wraith",
+                    "description": "A spirit formed from molten rock, its touch sears the flesh.",
+                    "health": 60,
+                    "base_attack_damage": 18,
+                    "base_defense": 12,
+                    "aggression": 8,
+                    "loot": {
+                        "name": "Health Potion",
+                        "description": "Restores 15 HP when consumed.",
+                        "type": "C",
+                        "properties": {
+                            "heal_amount": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Throne of the Fallen King",
+            "description": "A vast, dark chamber with an imposing throne at its center. The air crackles with raw energy.",
+            "item": null,
+            "enemies": [
+                {
+                    "name": "King's Shadow",
+                    "description": "A phantom of the king, mirroring his every move in battle.",
+                    "health": 150,
+                    "base_attack_damage": 20,
+                    "base_defense": 40,
+                    "aggression": 9,
+                    "loot": {
+                        "name": "Shadow's Amulet",
+                        "description": "An eerie amulet radiating dark energy. Wearing it feels like stepping into the king's shadow, unseen yet ever-present.",
+                        "type": "A",
+                        "properties": {
+                            "defense_bonus": 40
+                        }
+                    }
+                },
+                {
+                    "name": "The Fallen King",
+                    "description": "A tyrant long dead, yet refusing to leave the world of the living. His power is unmatched.",
+                    "health": 500,
+                    "base_attack_damage": 35,
+                    "base_defense": 25,
+                    "aggression": 15,
+                    "loot": {
+                        "name": "Crown of the Fallen King",
+                        "description": "A cursed crown radiating dark energy.",
+                        "type": "A",
+                        "properties": {
+                            "defense_bonus": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Sunlit Exit",
+            "description": "A blinding light floods the passage ahead. You take a deep breath and step forward, leaving the darkness behind.",
+            "item": null,
+            "enemies": []
+        }
+    ]
+}

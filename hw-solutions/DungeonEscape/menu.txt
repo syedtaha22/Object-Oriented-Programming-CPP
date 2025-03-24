@@ -1,0 +1,31 @@
+[1;33m====================================[0m
+       [1;31mDESCENT INTO THE ABYSS[0m
+[1;33m====================================[0m
+
+[1;37mWelcome, traveler.[0m You awaken in the depths of a forsaken dungeon, the air thick with the scent of decay. 
+Dark corridors stretch before you, whispering secrets of those who perished before you. 
+[1;32mYour only goal: survive.[0m
+
+[1;36mPrepare yourself. Every choice you make determines your fate.[0m
+
+[1;33m------------------------------------[0m
+              [1;34mCONTROLS[0m
+[1;33m------------------------------------[0m
+[1;37mAt any time when the game prompts for an input (> ), you may enter:[0m
+
+  [1;32mH[0m  - View this menu
+  [1;32mW[0m  - Change weapon
+  [1;32mD[0m  - Change armor (D for Defense)
+  [1;32mC[0m  - Use consumable
+  [1;32mS[0m  - View stats
+  [1;32mI[0m  - See inventory
+  [1;32mE[0m  - Explore the Room
+  [1;32mn[0m  - Next room
+  [1;32mp[0m  - Previous room
+
+[1;37mTo move forward, follow the game's instructions and make your choices wisely.[0m
+[1;31mThe dungeon is unforgiving.[0m
+
+[1;33m====================================[0m
+       [1;32mPRESS ANY KEY TO BEGIN[0m
+[1;33m====================================[0m
