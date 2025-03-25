@@ -1,7 +1,7 @@
-# **Dungeon Explorer**  
+# **Dungeon Escape**  
 
 ## **Description**  
-Dungeon Explorer is a text-based RPG that immerses players in the depths of a mysterious and perilous dungeon. Players must navigate through a series of rooms, battling enemies, collecting weapons and armor, and using consumables to survive. Every decision—from equipping the right gear to choosing whether to fight or flee—affects the outcome of the adventure.  
+Dungeon Escape is a text-based RPG that immerses players in the depths of a mysterious and perilous dungeon. Players must navigate through a series of rooms, battling enemies, collecting weapons and armor, and using consumables to survive. Every decision—from equipping the right gear to choosing whether to fight or flee—affects the outcome of the adventure.  
 
 The game is fully customizable via the `dungeon.json` configuration file, allowing players to define their own dungeon layout, enemies, and items. This flexibility makes the game highly replayable, with different dungeon configurations leading to unique gameplay experiences.  
 
