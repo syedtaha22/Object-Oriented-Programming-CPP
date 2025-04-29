@@ -30,20 +30,19 @@ public:
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Shape {
 public:
     virtual void draw() = 0; // Pure virtual function
     void info() {
-        cout << "This is a shape." << endl;
+        std::cout << "This is a shape." << std::endl;
     }
 };
 
 class Circle : public Shape {
 public:
     void draw() override {
-        cout << "Drawing a circle." << endl;
+        std::cout << "Drawing a circle." << std::endl;
     }
 };
 
@@ -93,7 +92,7 @@ class Animal {
 public:
     virtual void sound() = 0; // Pure virtual
     void breathe() {
-        cout << "Breathing..." << endl;
+        std::cout << "Breathing..." << std::endl;
     }
 };
 ```

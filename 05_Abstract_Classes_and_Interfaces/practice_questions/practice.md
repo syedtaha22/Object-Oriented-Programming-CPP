@@ -15,7 +15,7 @@
 
 2. **Interface-Based Logger**  
    Design a simple logging system using interfaces.  
-   Create an interface `Logger` with a method `log(string message)`.  
+   Create an interface `Logger` with a method `log(std::string message)`.  
    Implement two classes:
    - `FileLogger`: simulates logging to a file by printing a message "Logging to file: <message>"
    - `ConsoleLogger`: simulates logging to the console by printing a message "Logging to console: <message>"
@@ -48,7 +48,7 @@
 
 5. **Notification System**  
    You are building a simple notification system that sends messages via different channels.  
-   Define an interface `Notifier` with a method `send(string message)`.  
+   Define an interface `Notifier` with a method `send(std::string message)`.  
    Implement two classes:
    - `EmailNotifier`: simulates sending a message via email by printing "Email sent: <message>"
    - `SMSNotifier`: simulates sending a message via SMS by printing "SMS sent: <message>"

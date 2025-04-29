@@ -39,7 +39,6 @@ public:
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Printable {
 public:
@@ -54,11 +53,11 @@ public:
 class PrinterScanner : public Printable, public Scannable {
 public:
     void print() override {
-        cout << "Printing document..." << endl;
+        std::cout << "Printing document..." << std::endl;
     }
 
     void scan() override {
-        cout << "Scanning document..." << endl;
+        std::cout << "Scanning document..." << std::endl;
     }
 };
 
