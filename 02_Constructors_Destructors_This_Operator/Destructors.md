@@ -53,7 +53,6 @@ In this simple example, we allocate dynamic memory for an integer inside a class
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class MyClass {
     int* ptr;
@@ -66,11 +65,11 @@ public:
 
     ~MyClass() {
         delete ptr;  // Deallocate memory
-        cout << "Destructor called, memory freed.\n";
+        std::cout << "Destructor called, memory freed.\n";
     }
 
     void display() {
-        cout << "Value: " << *ptr << endl;
+        std::cout << "Value: " << *ptr << std::endl;
     }
 };
 
@@ -97,7 +96,6 @@ This example demonstrates using a destructor to close a file when the object is 
 ```cpp
 #include <iostream>
 #include <fstream>
-using namespace std;
 
 class FileManager {
     fstream file;
@@ -113,7 +111,7 @@ public:
     ~FileManager() {
         if (file.is_open()) {
             file.close();  // Close the file when the object is destroyed
-            cout << "File closed.\n";
+            std::cout << "File closed.\n";
         }
     }
 };

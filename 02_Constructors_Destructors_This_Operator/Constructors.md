@@ -32,22 +32,21 @@ A **default constructor** is a constructor that takes **no parameters**. It init
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Car {
 public:
-    string brand;
+    std::string brand;
     int year;
 
     // Default constructor
     Car() {
         brand = "Unknown";
         year = 0;
-        cout << "Default constructor called\n";
+        std::cout << "Default constructor called\n";
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 
@@ -75,22 +74,21 @@ A **parameterized constructor** allows passing arguments at the time of object c
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Car {
 public:
-    string brand;
+    std::string brand;
     int year;
 
     // Parameterized constructor
-    Car(string b, int y) {
+    Car(std::string b, int y) {
         brand = b;
         year = y;
-        cout << "Parameterized constructor called\n";
+        std::cout << "Parameterized constructor called\n";
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 
@@ -126,29 +124,28 @@ Since C++ supports **function overloading**, we can define multiple constructors
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Car {
 public:
-    string brand;
+    std::string brand;
     int year;
 
     // Default constructor
     Car() {
         brand = "Unknown";
         year = 0;
-        cout << "Default constructor called\n";
+        std::cout << "Default constructor called\n";
     }
 
     // Parameterized constructor
-    Car(string b, int y) {
+    Car(std::string b, int y) {
         brand = b;
         year = y;
-        cout << "Parameterized constructor called\n";
+        std::cout << "Parameterized constructor called\n";
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 
@@ -178,17 +175,17 @@ Instead of overloading, we can use **default arguments** in a constructor to ach
 ```cpp
 class Car {
 public:
-    string brand;
+    std::string brand;
     int year;
 
     // Single constructor with default arguments
-    Car(string b = "Unknown", int y = 0) {
+    Car(std::string b = "Unknown", int y = 0) {
         brand = b;
         year = y;
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 
@@ -219,20 +216,19 @@ C++ allows initialization of members using an **initializer list**. It is more e
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Car {
 public:
-    const string brand;
+    const std::string brand;
     int year;
 
     // Initializer list constructor
-    Car(string b, int y) : brand(b), year(y) {
-        cout << "Constructor with initializer list called\n";
+    Car(std::string b, int y) : brand(b), year(y) {
+        std::cout << "Constructor with initializer list called\n";
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 

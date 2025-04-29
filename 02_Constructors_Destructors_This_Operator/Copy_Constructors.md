@@ -31,15 +31,14 @@ If no copy constructor is explicitly defined, **C++ automatically provides a def
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Car {
 public:
-    string brand;
+    std::string brand;
     int year;
 
     // Constructor
-    Car(string b, int y) {
+    Car(std::string b, int y) {
         brand = b;
         year = y;
     }
@@ -48,11 +47,11 @@ public:
     Car(const Car& other) {
         brand = other.brand;
         year = other.year;
-        cout << "Copy constructor called\n";
+        std::cout << "Copy constructor called\n";
     }
 
     void display() {
-        cout << "Brand: " << brand << ", Year: " << year << endl;
+        std::cout << "Brand: " << brand << ", Year: " << year << std::endl;
     }
 };
 
@@ -79,7 +78,6 @@ Consider the following example:
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class MyClass {
     int* ptr;
@@ -91,7 +89,7 @@ public:
     }
 
     void display() {
-        cout << "Value: " << *ptr << endl;
+        std::cout << "Value: " << *ptr << std::endl;
     }
 };
 
@@ -187,7 +185,7 @@ public:
     }
 
     void display() {
-        cout << "Value: " << *ptr << endl;
+        std::cout << "Value: " << *ptr << std::endl;
     }
 
     ~MyClass() {

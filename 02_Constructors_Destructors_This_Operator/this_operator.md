@@ -34,7 +34,6 @@ In this case, `this` is used to return a reference to the current object.
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Counter {
     int count;
@@ -49,7 +48,7 @@ public:
     }
 
     void display() const {
-        cout << "Count: " << count << endl;
+        std::cout << "Count: " << count << std::endl;
     }
 };
 
@@ -78,7 +77,6 @@ The `this` pointer can be used to differentiate between member variables and met
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Box {
     int length;
@@ -89,7 +87,7 @@ public:
     }
 
     void display() const {
-        cout << "Length: " << length << endl;
+        std::cout << "Length: " << length << std::endl;
     }
 };
 
@@ -118,7 +116,6 @@ Another common use case is in the implementation of the assignment operator (`=`
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class MyClass {
     int* data;
@@ -147,7 +144,7 @@ public:
     }
 
     void display() const {
-        cout << "Data: " << *data << endl;
+        std::cout << "Data: " << *data << std::endl;
     }
 };
 
