@@ -34,13 +34,12 @@ class DerivedClass : public BaseClass {
 ### Example:
 ```cpp
 #include <iostream>
-using namespace std;
 
 // Base class
 class Animal {
 public:
     void eat() {
-        cout << "This animal is eating." << endl;
+        std::cout << "This animal is eating." << std::endl;
     }
 };
 
@@ -48,7 +47,7 @@ public:
 class Dog : public Animal {
 public:
     void bark() {
-        cout << "The dog is barking." << endl;
+        std::cout << "The dog is barking." << std::endl;
     }
 };
 
@@ -91,17 +90,17 @@ A **single derived class** inherits from **multiple base classes**.
 ```cpp
 class Base1 {
 public:
-    void showBase1() { cout << "Base1" << endl; }
+    void showBase1() { std::cout << "Base1" << std::endl; }
 };
 
 class Base2 {
 public:
-    void showBase2() { cout << "Base2" << endl; }
+    void showBase2() { std::cout << "Base2" << std::endl; }
 };
 
 class Derived : public Base1, public Base2 {
 public:
-    void showDerived() { cout << "Derived class" << endl; }
+    void showDerived() { std::cout << "Derived class" << std::endl; }
 };
 ```
 
@@ -111,7 +110,7 @@ One of the biggest problems in multiple inheritance is the **diamond problem**, 
 ```cpp
 class A {
 public:
-    void show() { cout << "Class A" << endl; }
+    void show() { std::cout << "Class A" << std::endl; }
 };
 
 class B : public A {};
@@ -132,17 +131,17 @@ A **derived class inherits from another derived class**, forming a chain.
 ```cpp
 class GrandParent {
 public:
-    void showGrandParent() { cout << "Grandparent" << endl; }
+    void showGrandParent() { std::cout << "Grandparent" << std::endl; }
 };
 
 class Parent : public GrandParent {
 public:
-    void showParent() { cout << "Parent" << endl; }
+    void showParent() { std::cout << "Parent" << std::endl; }
 };
 
 class Child : public Parent {
 public:
-    void showChild() { cout << "Child" << endl; }
+    void showChild() { std::cout << "Child" << std::endl; }
 };
 ```
 
@@ -152,7 +151,7 @@ A **single base class** is inherited by **multiple derived classes**.
 ```cpp
 class Parent {
 public:
-    void show() { cout << "Parent class" << endl; }
+    void show() { std::cout << "Parent class" << std::endl; }
 };
 
 class Child1 : public Parent {};
@@ -183,14 +182,14 @@ When a derived class is instantiated:
 ```cpp
 class Base {
 public:
-    Base() { cout << "Base Constructor\n"; }
-    ~Base() { cout << "Base Destructor\n"; }
+    Base() { std::cout << "Base Constructor\n"; }
+    ~Base() { std::cout << "Base Destructor\n"; }
 };
 
 class Derived : public Base {
 public:
-    Derived() { cout << "Derived Constructor\n"; }
-    ~Derived() { cout << "Derived Destructor\n"; }
+    Derived() { std::cout << "Derived Constructor\n"; }
+    ~Derived() { std::cout << "Derived Destructor\n"; }
 };
 
 int main() {
@@ -214,11 +213,11 @@ A derived class can redefine methods inherited from a base class.
 ```cpp
 class Base {
 public:
-    void show() { cout << "Base class" << endl; }
+    void show() { std::cout << "Base class" << std::endl; }
 };
 class Derived : public Base {
 public:
-    void show() { cout << "Derived class" << endl; }
+    void show() { std::cout << "Derived class" << std::endl; }
 };
 ```
 ---

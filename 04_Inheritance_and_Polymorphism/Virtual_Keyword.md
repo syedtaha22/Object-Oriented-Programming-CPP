@@ -10,12 +10,12 @@ In C++, when a derived class overrides a base class method, you usually expect t
 ```cpp
 class Base {
 public:
-    void show() { cout << "Base class" << endl; }
+    void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() { cout << "Derived class" << endl; }
+    void show() { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {
@@ -39,12 +39,12 @@ To make sure that the derived class's version of a function is called, declare t
 ```cpp
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {
@@ -74,12 +74,12 @@ Even though you're working with derived objects, only the base class destructor 
 ```cpp
 class Base {
 public:
-    ~Base() { cout << "Base Destructor" << endl; }
+    ~Base() { std::cout << "Base Destructor" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    ~Derived() { cout << "Derived Destructor" << endl; }
+    ~Derived() { std::cout << "Derived Destructor" << std::endl; }
 };
 
 int main() {
@@ -103,7 +103,7 @@ To fix this issue, you need to declare the base class destructor as `virtual`. T
 ```cpp
 class Base {
 public:
-    virtual ~Base() { cout << "Base Destructor" << endl; }
+    virtual ~Base() { std::cout << "Base Destructor" << std::endl; }
 };
 
 int main() {
@@ -141,7 +141,7 @@ Any derived class **must** provide an implementation of the pure virtual functio
 ```cpp
 class Derived : public AbstractBase {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 ```
 
@@ -157,12 +157,12 @@ When you call a virtual function on an object, the **vptr** (virtual pointer) in
 ```cpp
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {
@@ -184,17 +184,17 @@ When a class inherits from multiple base classes with virtual functions, each ba
 ```cpp
 class Base1 {
 public:
-    virtual void show() { cout << "Base1" << endl; }
+    virtual void show() { std::cout << "Base1" << std::endl; }
 };
 
 class Base2 {
 public:
-    virtual void show() { cout << "Base2" << endl; }
+    virtual void show() { std::cout << "Base2" << std::endl; }
 };
 
 class Derived : public Base1, public Base2 {
 public:
-    void show() override { cout << "Derived" << endl; }
+    void show() override { std::cout << "Derived" << std::endl; }
 };
 ```
 
@@ -210,22 +210,22 @@ Virtually inheriting a class ensures that only one instance of a common base cla
 ```cpp
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class A : virtual public Base {
 public:
-    void show() override { cout << "Class A" << endl; }
+    void show() override { std::cout << "Class A" << std::endl; }
 };
 
 class B : virtual public Base {
 public:
-    void show() override { cout << "Class B" << endl; }
+    void show() override { std::cout << "Class B" << std::endl; }
 };
 
 class Derived : public A, public B {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 ```
 

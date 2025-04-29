@@ -23,7 +23,6 @@ Function overloading allows multiple functions in the same scope to share the sa
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Math {
 public:
@@ -34,9 +33,9 @@ public:
 
 int main() {
     Math obj;
-    cout << obj.add(5, 10) << endl;       // Calls add(int, int)
-    cout << obj.add(5.5, 2.2) << endl;   // Calls add(double, double)
-    cout << obj.add(1, 2, 3) << endl;     // Calls add(int, int, int)
+    std::cout << obj.add(5, 10) << std::endl;       // Calls add(int, int)
+    std::cout << obj.add(5.5, 2.2) << std::endl;   // Calls add(double, double)
+    std::cout << obj.add(1, 2, 3) << std::endl;     // Calls add(int, int, int)
     return 0;
 }
 ```
@@ -46,7 +45,6 @@ Operator overloading allows operators such as `+`, `-`, `*`, etc., to be redefin
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Complex {
 public:
@@ -55,7 +53,7 @@ public:
     Complex operator+(const Complex& obj) {
         return Complex(real + obj.real, imag + obj.imag);
     }
-    void display() { cout << real << " + " << imag << "i" << endl; }
+    void display() { std::cout << real << " + " << imag << "i" << std::endl; }
 };
 
 int main() {
@@ -77,16 +75,15 @@ Function overriding occurs when a derived class provides a specific implementati
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {
@@ -129,12 +126,12 @@ The **vtable (virtual table)** is an internal mechanism used by C++ to implement
 ```cpp
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {

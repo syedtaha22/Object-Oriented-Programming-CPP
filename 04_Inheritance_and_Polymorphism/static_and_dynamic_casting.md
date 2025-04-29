@@ -28,16 +28,15 @@ Upcasting is **safe and implicit**, but `static_cast` can still be used for clar
 
 ```cpp
 #include <iostream>
-using namespace std;
 
 class Base {
 public:
-    virtual void show() { cout << "Base class" << endl; }
+    virtual void show() { std::cout << "Base class" << std::endl; }
 };
 
 class Derived : public Base {
 public:
-    void show() override { cout << "Derived class" << endl; }
+    void show() override { std::cout << "Derived class" << std::endl; }
 };
 
 int main() {
@@ -96,7 +95,7 @@ int main() {
     if (d) {
         d->show(); // Output: Derived class
     } else {
-        cout << "Cast failed" << endl;
+        std::cout << "Cast failed" << std::endl;
     }
     delete b;
     return 0;
@@ -115,7 +114,7 @@ int main() {
         d.show();
         delete b;
     } catch (bad_cast& e) {
-        cout << "Bad cast exception: " << e.what() << endl;
+        std::cout << "Bad cast exception: " << e.what() << std::endl;
     }
     return 0;
 }
