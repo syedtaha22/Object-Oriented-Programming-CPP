@@ -7,9 +7,6 @@
 # Ignore all .docx (Word) files
 *.docx
 
-# Ignore all .pdf files
-*.pdf
-
 # Ignore the misc folder
 misc/
 
