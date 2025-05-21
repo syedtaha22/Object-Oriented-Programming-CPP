@@ -181,6 +181,8 @@ public:
 
 int main() {
     OperationChain<float> chain;
+
+    // Using new here is probably a bad idea....but left as is for simplicity
     chain.addOperation(new Add<float>(5));
     chain.addOperation(new Multiply<float>(2));
     chain.addOperation(new Power<float>(3));
