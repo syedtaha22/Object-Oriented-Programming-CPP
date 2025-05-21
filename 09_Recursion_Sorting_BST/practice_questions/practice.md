@@ -1,0 +1,3 @@
+# Practice Instructions
+
+For practice, try applying **Object-Oriented Programming (OOP)** principles to design clean, modular, and reusable implementations of the algorithms and data structures introduced in this module. Create general-purpose classes for recursion-based solutions, sorting algorithms (e.g., `Sorter` with derived classes for each algorithm), and the Binary Search Tree (e.g., `BSTNode` and `BinarySearchTree` classes). 

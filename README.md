@@ -61,17 +61,11 @@ The repository is divided into modules, each focusing on key topics in object-or
    * Lambda expressions and function pointers
    * Functional programming constructs: `map`, `filter`, and `reduce`
 
-9. **[Recursion](09_Recursion/README.md)**
+9. [Recursion, Sorting, and BSTs](09_Recursion_Sorting_BST/README.md)
 
-   * Understanding recursive algorithms
-   * Backtracking techniques
-   * Applications of recursion
-
-10. **[Sorting and Heaps](10_Sorting_and_Heaps/README.md)**
-
-    * Sorting algorithms: merge sort, quicksort, and heap sort
-    * Understanding heaps and priority queues
-    * Heap operations and heapify
+   * Understanding recursive algorithms and backtracking techniques
+   * Sorting algorithms: insertion, selection, shell, merge, and quick sort
+   * Binary Search Trees (BSTs): insertion, deletion, and traversal
 
 ## Getting Started
 
