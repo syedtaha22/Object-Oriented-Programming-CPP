@@ -53,7 +53,7 @@ The repository is divided into modules, each focusing on key topics in object-or
 7. **[Generic Programming](07_Generic_Programming/README.md)**
 
    * Templates: functions and classes
-   * Auto type deduction and concepts
+   * Type deduction and concepts
    * Writing reusable and generic code
 
 8. **[Functional Programming](08_Functional_Programming/README.md)**
